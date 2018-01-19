@@ -314,7 +314,7 @@ CREATE TABLE `students` (
   `marital` varchar(10) NOT NULL,
   `status` varchar(45) DEFAULT NULL,
   `status_deets` varchar(45) DEFAULT NULL,
-  `updated_at` datetime DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

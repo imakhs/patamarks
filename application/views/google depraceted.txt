@@ -1,0 +1,13 @@
+// Build a GoogleApiClient with access to the Google Sign-In API and the
+        // options specified by gso.
+        // mGoogleApiClient = new GoogleApiClient.Builder(this)
+        //.enableAutoManage(this, new GoogleApiClient.OnConnectionFailedListener(){
+        //@Override
+        //Public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+        //Toast.makeText(LoginActivity.this, "Something went Wrong", Toast.LENGTH_LONG).show();
+        //}
+        ////} /* OnConnectionFailedListener */)
+        //.addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+        //                .build();
+        // Build a GoogleSignInClient with the options specified by gso.
+        
